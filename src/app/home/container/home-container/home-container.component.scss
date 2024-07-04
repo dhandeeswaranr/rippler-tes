@@ -1,0 +1,78 @@
+:host {
+    .home-page-container{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+        .home-page-holder{
+            width: 1366px;
+            display: flex;
+            justify-content: space-around;
+            align-items: self-start;
+            flex-wrap: wrap;
+            padding: 0px 60px;
+            .content-container{
+                width: 230px; 
+                margin-bottom: 20px;
+            }
+            .content-holder {
+                width: 230px;
+                height: 346px;
+                .content-desc{
+                    min-height: 131px;
+                }  
+            }
+            .cost{
+                h5{
+                    font-family: Lora;
+                    font-size: 12px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: 0.36px;
+                    color: #898989;
+                }
+            }
+            .type {
+                h4 {
+                    font-family: Lora;
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.56;
+                    letter-spacing: normal;
+                    color: #141414;
+                    .higlight{
+                        color: #a8917f;
+                    }
+                }
+            }
+            .size, .rental{
+                h4 {
+                    font-family: Lora;
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.5;
+                    letter-spacing: normal;
+                    color: #383838;
+                }
+            }
+            
+        }
+        img {
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width:  579px) {
+        .home-page-container{
+           .content-container {
+            margin-bottom: 36px !important;
+           }
+        }
+    }
+}
